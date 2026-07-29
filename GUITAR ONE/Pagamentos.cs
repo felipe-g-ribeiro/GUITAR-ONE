@@ -62,6 +62,9 @@ namespace GUITAR_ONE {
             pagamentosBindingSource.Filter = "Status = '" + status + "'";
 
 
+           
+
+
         }
     }
 }

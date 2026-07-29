@@ -73,7 +73,18 @@ SELECT IdAluno, NomeAluno, Nivel, Email, Telefone FROM Alunos WHERE (IdAluno = @
               <Mapping SourceColumn="Email" DataSetColumn="Email" />
               <Mapping SourceColumn="Telefone" DataSetColumn="Telefone" />
             </Mappings>
-            <Sources />
+            <Sources>
+              <DbSource ConnectionRef="Guitar_HubConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="StatusPagamento" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="StatusPagamento" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="StatusPagamento">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Alunos.IdAluno, Alunos.NomeAluno, Alunos.Nivel, Alunos.Email, Alunos.Telefone, Pagamentos.Status
+FROM     Alunos INNER JOIN
+                  Pagamentos ON Alunos.IdAluno = Pagamentos.IdAluno</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AulasTableAdapter" GeneratorDataComponentClassName="AulasTableAdapter" Name="Aulas" UserDataComponentName="AulasTableAdapter">
             <MainSource>
@@ -484,22 +495,22 @@ SELECT IdSala, NomeSala, Capacidade FROM Salas WHERE (IdSala = @IdSala)</Command
               <xs:element name="IdProfessor" msprop:Generator_ColumnPropNameInTable="IdProfessorColumn" msprop:Generator_ColumnPropNameInRow="IdProfessor" msprop:Generator_UserColumnName="IdProfessor" msprop:Generator_ColumnVarNameInTable="columnIdProfessor" type="xs:int" minOccurs="0" />
               <xs:element name="IdAluno" msprop:Generator_ColumnPropNameInTable="IdAlunoColumn" msprop:Generator_ColumnPropNameInRow="IdAluno" msprop:Generator_UserColumnName="IdAluno" msprop:Generator_ColumnVarNameInTable="columnIdAluno" type="xs:int" minOccurs="0" />
               <xs:element name="IdSala" msprop:Generator_ColumnPropNameInTable="IdSalaColumn" msprop:Generator_ColumnPropNameInRow="IdSala" msprop:Generator_UserColumnName="IdSala" msprop:Generator_ColumnVarNameInTable="columnIdSala" type="xs:int" minOccurs="0" />
-              <xs:element name="NomeAula" msprop:Generator_ColumnPropNameInRow="NomeAula" msprop:Generator_ColumnPropNameInTable="NomeAulaColumn" msprop:Generator_ColumnVarNameInTable="columnNomeAula" msprop:Generator_UserColumnName="NomeAula" minOccurs="0">
+              <xs:element name="NomeAula" msprop:Generator_UserColumnName="NomeAula" msprop:Generator_ColumnPropNameInTable="NomeAulaColumn" msprop:Generator_ColumnPropNameInRow="NomeAula" msprop:Generator_ColumnVarNameInTable="columnNomeAula" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="100" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="Data" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnPropNameInTable="DataColumn" msprop:Generator_ColumnVarNameInTable="columnData" msprop:Generator_UserColumnName="Data" type="xs:dateTime" minOccurs="0" />
-              <xs:element name="Duração" msprop:Generator_ColumnPropNameInRow="Duração" msprop:Generator_ColumnPropNameInTable="DuraçãoColumn" msprop:Generator_ColumnVarNameInTable="columnDuração" msprop:Generator_UserColumnName="Duração" minOccurs="0">
+              <xs:element name="Data" msprop:Generator_UserColumnName="Data" msprop:Generator_ColumnPropNameInTable="DataColumn" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnVarNameInTable="columnData" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Duração" msprop:Generator_UserColumnName="Duração" msprop:Generator_ColumnPropNameInTable="DuraçãoColumn" msprop:Generator_ColumnPropNameInRow="Duração" msprop:Generator_ColumnVarNameInTable="columnDuração" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="Conteudo" msprop:Generator_ColumnPropNameInRow="Conteudo" msprop:Generator_ColumnPropNameInTable="ConteudoColumn" msprop:Generator_ColumnVarNameInTable="columnConteudo" msprop:Generator_UserColumnName="Conteudo" minOccurs="0">
+              <xs:element name="Conteudo" msprop:Generator_UserColumnName="Conteudo" msprop:Generator_ColumnPropNameInTable="ConteudoColumn" msprop:Generator_ColumnPropNameInRow="Conteudo" msprop:Generator_ColumnVarNameInTable="columnConteudo" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="100" />
@@ -628,11 +639,11 @@ SELECT IdSala, NomeSala, Capacidade FROM Salas WHERE (IdSala = @IdSala)</Command
   </xs:element>
   <xs:annotation>
     <xs:appinfo>
-      <msdata:Relationship name="FK_Aulas_Alunos" msdata:parent="Alunos" msdata:child="Aulas" msdata:parentkey="IdAluno" msdata:childkey="IdAluno" msprop:Generator_UserParentTable="Alunos" msprop:Generator_UserChildTable="Aulas" msprop:Generator_RelationVarName="relationFK_Aulas_Alunos" msprop:Generator_ChildPropName="GetAulasRows" msprop:Generator_ParentPropName="AlunosRow" msprop:Generator_UserRelationName="FK_Aulas_Alunos" />
-      <msdata:Relationship name="FK_Aulas_Professores" msdata:parent="Professores" msdata:child="Aulas" msdata:parentkey="IdProfessor" msdata:childkey="IdProfessor" msprop:Generator_UserParentTable="Professores" msprop:Generator_UserChildTable="Aulas" msprop:Generator_RelationVarName="relationFK_Aulas_Professores" msprop:Generator_ChildPropName="GetAulasRows" msprop:Generator_UserRelationName="FK_Aulas_Professores" msprop:Generator_ParentPropName="ProfessoresRow" />
-      <msdata:Relationship name="FK_Aulas_Salas" msdata:parent="Salas" msdata:child="Aulas" msdata:parentkey="IdSala" msdata:childkey="IdSala" msprop:Generator_UserParentTable="Salas" msprop:Generator_UserChildTable="Aulas" msprop:Generator_RelationVarName="relationFK_Aulas_Salas" msprop:Generator_ChildPropName="GetAulasRows" msprop:Generator_UserRelationName="FK_Aulas_Salas" msprop:Generator_ParentPropName="SalasRow" />
-      <msdata:Relationship name="FK_Pagamentos_Alunos" msdata:parent="Alunos" msdata:child="Pagamentos" msdata:parentkey="IdAluno" msdata:childkey="IdAluno" msprop:Generator_UserParentTable="Alunos" msprop:Generator_UserChildTable="Pagamentos" msprop:Generator_RelationVarName="relationFK_Pagamentos_Alunos" msprop:Generator_ChildPropName="GetPagamentosRows" msprop:Generator_ParentPropName="AlunosRow" msprop:Generator_UserRelationName="FK_Pagamentos_Alunos" />
-      <msdata:Relationship name="FK_Pagamentos_Planos" msdata:parent="Planos" msdata:child="Pagamentos" msdata:parentkey="IdPlano" msdata:childkey="IdPlano" msprop:Generator_UserParentTable="Planos" msprop:Generator_UserChildTable="Pagamentos" msprop:Generator_RelationVarName="relationFK_Pagamentos_Planos" msprop:Generator_ChildPropName="GetPagamentosRows" msprop:Generator_UserRelationName="FK_Pagamentos_Planos" msprop:Generator_ParentPropName="PlanosRow" />
+      <msdata:Relationship name="FK_Aulas_Alunos" msdata:parent="Alunos" msdata:child="Aulas" msdata:parentkey="IdAluno" msdata:childkey="IdAluno" msprop:Generator_UserParentTable="Alunos" msprop:Generator_UserChildTable="Aulas" msprop:Generator_RelationVarName="relationFK_Aulas_Alunos" msprop:Generator_ChildPropName="GetAulasRows" msprop:Generator_UserRelationName="FK_Aulas_Alunos" msprop:Generator_ParentPropName="AlunosRow" />
+      <msdata:Relationship name="FK_Aulas_Professores" msdata:parent="Professores" msdata:child="Aulas" msdata:parentkey="IdProfessor" msdata:childkey="IdProfessor" msprop:Generator_UserParentTable="Professores" msprop:Generator_UserChildTable="Aulas" msprop:Generator_RelationVarName="relationFK_Aulas_Professores" msprop:Generator_ChildPropName="GetAulasRows" msprop:Generator_ParentPropName="ProfessoresRow" msprop:Generator_UserRelationName="FK_Aulas_Professores" />
+      <msdata:Relationship name="FK_Aulas_Salas" msdata:parent="Salas" msdata:child="Aulas" msdata:parentkey="IdSala" msdata:childkey="IdSala" msprop:Generator_UserParentTable="Salas" msprop:Generator_UserChildTable="Aulas" msprop:Generator_RelationVarName="relationFK_Aulas_Salas" msprop:Generator_ChildPropName="GetAulasRows" msprop:Generator_ParentPropName="SalasRow" msprop:Generator_UserRelationName="FK_Aulas_Salas" />
+      <msdata:Relationship name="FK_Pagamentos_Alunos" msdata:parent="Alunos" msdata:child="Pagamentos" msdata:parentkey="IdAluno" msdata:childkey="IdAluno" msprop:Generator_UserParentTable="Alunos" msprop:Generator_UserChildTable="Pagamentos" msprop:Generator_RelationVarName="relationFK_Pagamentos_Alunos" msprop:Generator_ChildPropName="GetPagamentosRows" msprop:Generator_UserRelationName="FK_Pagamentos_Alunos" msprop:Generator_ParentPropName="AlunosRow" />
+      <msdata:Relationship name="FK_Pagamentos_Planos" msdata:parent="Planos" msdata:child="Pagamentos" msdata:parentkey="IdPlano" msdata:childkey="IdPlano" msprop:Generator_UserParentTable="Planos" msprop:Generator_UserChildTable="Pagamentos" msprop:Generator_RelationVarName="relationFK_Pagamentos_Planos" msprop:Generator_ChildPropName="GetPagamentosRows" msprop:Generator_ParentPropName="PlanosRow" msprop:Generator_UserRelationName="FK_Pagamentos_Planos" />
     </xs:appinfo>
   </xs:annotation>
 </xs:schema>

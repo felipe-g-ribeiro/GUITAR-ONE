@@ -56,5 +56,9 @@ namespace GUITAR_ONE {
             menu.Show();
             this.Hide();
         }
+
+        private void alunosDataGridView_DataError(object sender, DataGridViewDataErrorEventArgs e) {
+            try { } catch { }
+        }
     }
 }

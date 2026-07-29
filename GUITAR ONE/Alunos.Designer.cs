@@ -31,17 +31,18 @@
             this.tableAdapterManager = new GUITAR_ONE.Guitar_HubDataSetTableAdapters.TableAdapterManager();
             this.pagamentosTableAdapter = new GUITAR_ONE.Guitar_HubDataSetTableAdapters.PagamentosTableAdapter();
             this.alunosDataGridView = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pagamentosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bootstrapBtn5 = new BootstrapBtn();
             this.bootstrapBtn3 = new BootstrapBtn();
             this.bootstrapBtn2 = new BootstrapBtn();
             this.bootstrapBtn1 = new BootstrapBtn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IdAluno = new System.Windows.Forms.DataGridViewComboBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.guitar_HubDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.alunosBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.alunosDataGridView)).BeginInit();
@@ -87,11 +88,12 @@
             this.alunosDataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal;
             this.alunosDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.alunosDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4,
-            this.dataGridViewTextBoxColumn5});
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn2,
+            this.IdAluno});
             this.alunosDataGridView.DataSource = this.alunosBindingSource;
             this.alunosDataGridView.Location = new System.Drawing.Point(12, 89);
             this.alunosDataGridView.Name = "alunosDataGridView";
@@ -104,48 +106,7 @@
             this.alunosDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.alunosDataGridView.Size = new System.Drawing.Size(782, 369);
             this.alunosDataGridView.TabIndex = 14;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "NomeAluno";
-            this.dataGridViewTextBoxColumn2.HeaderText = "NomeAluno";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "IdAluno";
-            this.dataGridViewTextBoxColumn1.HeaderText = "IdAluno";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Visible = false;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "Nivel";
-            this.dataGridViewTextBoxColumn3.HeaderText = "Nivel";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "Email";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Email";
-            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "Telefone";
-            this.dataGridViewTextBoxColumn5.HeaderText = "Telefone";
-            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.alunosDataGridView.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.alunosDataGridView_DataError);
             // 
             // pagamentosBindingSource
             // 
@@ -230,6 +191,63 @@
             this.bootstrapBtn1.UseVisualStyleBackColor = true;
             this.bootstrapBtn1.Click += new System.EventHandler(this.bootstrapBtn1_Click);
             // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "IdAluno";
+            this.dataGridViewTextBoxColumn1.HeaderText = "IdAluno";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Nivel";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Nivel";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Email";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Email";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "Telefone";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Telefone";
+            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "NomeAluno";
+            this.dataGridViewTextBoxColumn2.HeaderText = "NomeAluno";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // IdAluno
+            // 
+            this.IdAluno.DataPropertyName = "IdAluno";
+            this.IdAluno.DataSource = this.pagamentosBindingSource;
+            this.IdAluno.DisplayMember = "Status";
+            this.IdAluno.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.Nothing;
+            this.IdAluno.HeaderText = "IdAluno";
+            this.IdAluno.MinimumWidth = 6;
+            this.IdAluno.Name = "IdAluno";
+            this.IdAluno.ReadOnly = true;
+            this.IdAluno.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.IdAluno.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.IdAluno.ValueMember = "IdAluno";
+            this.IdAluno.Width = 125;
+            // 
             // Alunos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -269,10 +287,11 @@
         private System.Windows.Forms.BindingSource pagamentosBindingSource;
         private Guitar_HubDataSetTableAdapters.PagamentosTableAdapter pagamentosTableAdapter;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewComboBoxColumn IdAluno;
     }
 }
