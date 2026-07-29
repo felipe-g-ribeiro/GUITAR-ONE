@@ -1,0 +1,40 @@
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\bin\Debug\GUITAR ONE.exe.config
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\bin\Debug\GUITAR ONE.exe
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\bin\Debug\GUITAR ONE.pdb
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR ONE.csproj.AssemblyReference.cache
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Form1.resources
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.MenuPrincipal.resources
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Properties.Resources.resources
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR ONE.csproj.GenerateResource.cache
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR ONE.csproj.CoreCompileInputs.cache
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR ONE.exe
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR ONE.pdb
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Guitarras.resources
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.LesPaul.resources
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Telecaster.resources
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Aulas.resources
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Luthieria.resources
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Equipamentos.resources
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Alunos.resources
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Professores.resources
+C:\Users\felip\Desktop\IEFP Formação\245 - Desenvolver algoritmos\01 - Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Pagamentos.resources
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\bin\Debug\GUITAR ONE.exe.config
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\bin\Debug\GUITAR ONE.exe
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\bin\Debug\GUITAR ONE.pdb
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR ONE.csproj.AssemblyReference.cache
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Alunos.resources
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Aulas.resources
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Equipamentos.resources
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Form1.resources
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Guitarras.resources
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.LesPaul.resources
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Luthieria.resources
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.MenuPrincipal.resources
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Pagamentos.resources
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Professores.resources
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Properties.Resources.resources
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Telecaster.resources
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR ONE.csproj.GenerateResource.cache
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR ONE.csproj.CoreCompileInputs.cache
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR ONE.exe
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR ONE.pdb

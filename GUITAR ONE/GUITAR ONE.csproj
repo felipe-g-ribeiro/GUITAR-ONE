@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUITAR_ONE</RootNamespace>
+    <AssemblyName>GUITAR ONE</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alunos.Designer.cs">
+      <DependentUpon>Alunos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aulas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aulas.Designer.cs">
+      <DependentUpon>Aulas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipamentos.Designer.cs">
+      <DependentUpon>Equipamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guitarras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guitarras.Designer.cs">
+      <DependentUpon>Guitarras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guitar_HubDataSet.cs">
+      <DependentUpon>Guitar_HubDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Guitar_HubDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Guitar_HubDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LesPaul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LesPaul.Designer.cs">
+      <DependentUpon>LesPaul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Luthieria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Luthieria.Designer.cs">
+      <DependentUpon>Luthieria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModernBtn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pagamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pagamentos.Designer.cs">
+      <DependentUpon>Pagamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Professores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Professores.Designer.cs">
+      <DependentUpon>Professores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Telecaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telecaster.Designer.cs">
+      <DependentUpon>Telecaster.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Alunos.resx">
+      <DependentUpon>Alunos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aulas.resx">
+      <DependentUpon>Aulas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipamentos.resx">
+      <DependentUpon>Equipamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guitarras.resx">
+      <DependentUpon>Guitarras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LesPaul.resx">
+      <DependentUpon>LesPaul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Luthieria.resx">
+      <DependentUpon>Luthieria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagamentos.resx">
+      <DependentUpon>Pagamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Professores.resx">
+      <DependentUpon>Professores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telecaster.resx">
+      <DependentUpon>Telecaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Guitar_HubDataSet.xsc">
+      <DependentUpon>Guitar_HubDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Guitar_HubDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Guitar_HubDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Guitar_HubDataSet.xss">
+      <DependentUpon>Guitar_HubDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Telcaster.cd">
+      <SubType>Form</SubType>
+    </None>
+    <None Include="Telcaster.Designer.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo0001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guitarras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tele.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aulas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gibson.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alunos.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
