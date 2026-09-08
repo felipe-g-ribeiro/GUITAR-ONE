@@ -42,6 +42,8 @@ namespace GUITAR_ONE {
             // TODO: esta linha de código carrega dados na tabela 'guitar_HubDataSet.Aulas'. Você pode movê-la ou removê-la conforme necessário.
             this.aulasTableAdapter.Fill(this.guitar_HubDataSet.Aulas);
 
+            dataDateTimePicker.Value = DateTime.Now;
+
 
 
 
@@ -83,14 +85,10 @@ namespace GUITAR_ONE {
 
         private void bootstrapBtn4_Click(object sender, EventArgs e) {
 
-            try {
+            DateTime data = dataDateTimePicker.Value.Date;
+            string filtro = data.ToString("yyyy-MM-dd");
 
-                aulasBindingSource.Filter = "Data = '" + txtAulasPesq.Text + "'";
-            }
-            catch {
-                MessageBox.Show("Data inválida, digite no formato: dd/mm/aaaa");
-
-            }
+            aulasBindingSource.Filter = $"Data = '{filtro}'";
 
         }
 
@@ -101,8 +99,13 @@ namespace GUITAR_ONE {
 
         private void dataDateTimePicker_ValueChanged(object sender, EventArgs e) {
 
-            dataDateTimePicker.Value = DateTime.Now;
+           
 
+        }
+
+        private void bootstrapBtn6_Click_1(object sender, EventArgs e) {
+
+            aulasBindingSource.RemoveFilter();
         }
     }
 }

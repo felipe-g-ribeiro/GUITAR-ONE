@@ -27,8 +27,7 @@
             System.Windows.Forms.Label dataLabel;
             System.Windows.Forms.Label conteudoLabel;
             System.Windows.Forms.Label duraçãoLabel;
-            System.Windows.Forms.Label label1;
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.aulasBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.guitar_HubDataSet = new GUITAR_ONE.Guitar_HubDataSet();
             this.salasBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -55,12 +54,11 @@
             this.dataDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.conteudoTextBox = new System.Windows.Forms.TextBox();
             this.duraçãoTextBox = new System.Windows.Forms.TextBox();
-            this.txtAulasPesq = new System.Windows.Forms.TextBox();
             this.bootstrapBtn4 = new BootstrapBtn();
+            this.bootstrapBtn6 = new BootstrapBtn();
             dataLabel = new System.Windows.Forms.Label();
             conteudoLabel = new System.Windows.Forms.Label();
             duraçãoLabel = new System.Windows.Forms.Label();
-            label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.aulasBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guitar_HubDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.salasBindingSource)).BeginInit();
@@ -100,16 +98,6 @@
             duraçãoLabel.Size = new System.Drawing.Size(86, 20);
             duraçãoLabel.TabIndex = 18;
             duraçãoLabel.Text = "Duração:";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            label1.Location = new System.Drawing.Point(33, 528);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(98, 18);
-            label1.TabIndex = 22;
-            label1.Text = "Agenda Dia:";
             // 
             // aulasBindingSource
             // 
@@ -219,8 +207,8 @@
             this.aulasDataGridView.Name = "aulasDataGridView";
             this.aulasDataGridView.RowHeadersVisible = false;
             this.aulasDataGridView.RowHeadersWidth = 51;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Plum;
-            this.aulasDataGridView.RowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Plum;
+            this.aulasDataGridView.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.aulasDataGridView.RowTemplate.Height = 24;
             this.aulasDataGridView.Size = new System.Drawing.Size(776, 294);
             this.aulasDataGridView.TabIndex = 16;
@@ -358,14 +346,6 @@
             this.duraçãoTextBox.Size = new System.Drawing.Size(100, 22);
             this.duraçãoTextBox.TabIndex = 19;
             // 
-            // txtAulasPesq
-            // 
-            this.txtAulasPesq.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAulasPesq.Location = new System.Drawing.Point(155, 523);
-            this.txtAulasPesq.Name = "txtAulasPesq";
-            this.txtAulasPesq.Size = new System.Drawing.Size(319, 28);
-            this.txtAulasPesq.TabIndex = 20;
-            // 
             // bootstrapBtn4
             // 
             this.bootstrapBtn4.BorderRadius = 8;
@@ -374,14 +354,31 @@
             this.bootstrapBtn4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bootstrapBtn4.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
             this.bootstrapBtn4.ForeColor = System.Drawing.Color.White;
-            this.bootstrapBtn4.Location = new System.Drawing.Point(488, 520);
+            this.bootstrapBtn4.Location = new System.Drawing.Point(488, 477);
             this.bootstrapBtn4.Name = "bootstrapBtn4";
             this.bootstrapBtn4.Size = new System.Drawing.Size(132, 31);
-            this.bootstrapBtn4.Style = BootstrapBtn.BootstrapStyle.Warning;
+            this.bootstrapBtn4.Style = BootstrapBtn.BootstrapStyle.Info;
             this.bootstrapBtn4.TabIndex = 21;
             this.bootstrapBtn4.Text = "Pesquisar";
             this.bootstrapBtn4.UseVisualStyleBackColor = true;
             this.bootstrapBtn4.Click += new System.EventHandler(this.bootstrapBtn4_Click);
+            // 
+            // bootstrapBtn6
+            // 
+            this.bootstrapBtn6.BorderRadius = 8;
+            this.bootstrapBtn6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bootstrapBtn6.FlatAppearance.BorderSize = 0;
+            this.bootstrapBtn6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bootstrapBtn6.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
+            this.bootstrapBtn6.ForeColor = System.Drawing.Color.White;
+            this.bootstrapBtn6.Location = new System.Drawing.Point(626, 477);
+            this.bootstrapBtn6.Name = "bootstrapBtn6";
+            this.bootstrapBtn6.Size = new System.Drawing.Size(132, 31);
+            this.bootstrapBtn6.Style = BootstrapBtn.BootstrapStyle.Info;
+            this.bootstrapBtn6.TabIndex = 22;
+            this.bootstrapBtn6.Text = "Limpar";
+            this.bootstrapBtn6.UseVisualStyleBackColor = true;
+            this.bootstrapBtn6.Click += new System.EventHandler(this.bootstrapBtn6_Click_1);
             // 
             // Aulas
             // 
@@ -389,9 +386,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(816, 707);
-            this.Controls.Add(label1);
+            this.Controls.Add(this.bootstrapBtn6);
             this.Controls.Add(this.bootstrapBtn4);
-            this.Controls.Add(this.txtAulasPesq);
             this.Controls.Add(duraçãoLabel);
             this.Controls.Add(this.duraçãoTextBox);
             this.Controls.Add(conteudoLabel);
@@ -451,7 +447,7 @@
         private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn7;
         private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn8;
-        private System.Windows.Forms.TextBox txtAulasPesq;
         private BootstrapBtn bootstrapBtn4;
+        private BootstrapBtn bootstrapBtn6;
     }
 }
