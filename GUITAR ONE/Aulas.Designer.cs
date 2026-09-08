@@ -27,7 +27,9 @@
             System.Windows.Forms.Label dataLabel;
             System.Windows.Forms.Label conteudoLabel;
             System.Windows.Forms.Label duraçãoLabel;
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.Label label1;
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.Label label2;
             this.aulasBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.guitar_HubDataSet = new GUITAR_ONE.Guitar_HubDataSet();
             this.salasBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -56,9 +58,15 @@
             this.duraçãoTextBox = new System.Windows.Forms.TextBox();
             this.bootstrapBtn4 = new BootstrapBtn();
             this.bootstrapBtn6 = new BootstrapBtn();
+            this.txtAlunoPesq = new System.Windows.Forms.TextBox();
+            this.bootstrapBtn7 = new BootstrapBtn();
+            this.bootstrapBtn8 = new BootstrapBtn();
+            this.txtProfessorPesq = new System.Windows.Forms.TextBox();
             dataLabel = new System.Windows.Forms.Label();
             conteudoLabel = new System.Windows.Forms.Label();
             duraçãoLabel = new System.Windows.Forms.Label();
+            label1 = new System.Windows.Forms.Label();
+            label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.aulasBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guitar_HubDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.salasBindingSource)).BeginInit();
@@ -98,6 +106,16 @@
             duraçãoLabel.Size = new System.Drawing.Size(86, 20);
             duraçãoLabel.TabIndex = 18;
             duraçãoLabel.Text = "Duração:";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label1.Location = new System.Drawing.Point(33, 524);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(62, 20);
+            label1.TabIndex = 25;
+            label1.Text = "Aluno:";
             // 
             // aulasBindingSource
             // 
@@ -207,8 +225,8 @@
             this.aulasDataGridView.Name = "aulasDataGridView";
             this.aulasDataGridView.RowHeadersVisible = false;
             this.aulasDataGridView.RowHeadersWidth = 51;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Plum;
-            this.aulasDataGridView.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Plum;
+            this.aulasDataGridView.RowsDefaultCellStyle = dataGridViewCellStyle1;
             this.aulasDataGridView.RowTemplate.Height = 24;
             this.aulasDataGridView.Size = new System.Drawing.Size(776, 294);
             this.aulasDataGridView.TabIndex = 16;
@@ -354,9 +372,9 @@
             this.bootstrapBtn4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bootstrapBtn4.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
             this.bootstrapBtn4.ForeColor = System.Drawing.Color.White;
-            this.bootstrapBtn4.Location = new System.Drawing.Point(488, 477);
+            this.bootstrapBtn4.Location = new System.Drawing.Point(488, 484);
             this.bootstrapBtn4.Name = "bootstrapBtn4";
-            this.bootstrapBtn4.Size = new System.Drawing.Size(132, 31);
+            this.bootstrapBtn4.Size = new System.Drawing.Size(132, 24);
             this.bootstrapBtn4.Style = BootstrapBtn.BootstrapStyle.Info;
             this.bootstrapBtn4.TabIndex = 21;
             this.bootstrapBtn4.Text = "Pesquisar";
@@ -371,14 +389,73 @@
             this.bootstrapBtn6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bootstrapBtn6.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
             this.bootstrapBtn6.ForeColor = System.Drawing.Color.White;
-            this.bootstrapBtn6.Location = new System.Drawing.Point(626, 477);
+            this.bootstrapBtn6.Location = new System.Drawing.Point(636, 484);
             this.bootstrapBtn6.Name = "bootstrapBtn6";
-            this.bootstrapBtn6.Size = new System.Drawing.Size(132, 31);
+            this.bootstrapBtn6.Size = new System.Drawing.Size(132, 102);
             this.bootstrapBtn6.Style = BootstrapBtn.BootstrapStyle.Info;
             this.bootstrapBtn6.TabIndex = 22;
             this.bootstrapBtn6.Text = "Limpar";
             this.bootstrapBtn6.UseVisualStyleBackColor = true;
             this.bootstrapBtn6.Click += new System.EventHandler(this.bootstrapBtn6_Click_1);
+            // 
+            // txtAlunoPesq
+            // 
+            this.txtAlunoPesq.Location = new System.Drawing.Point(155, 524);
+            this.txtAlunoPesq.Name = "txtAlunoPesq";
+            this.txtAlunoPesq.Size = new System.Drawing.Size(319, 22);
+            this.txtAlunoPesq.TabIndex = 23;
+            this.txtAlunoPesq.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // bootstrapBtn7
+            // 
+            this.bootstrapBtn7.BorderRadius = 8;
+            this.bootstrapBtn7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bootstrapBtn7.FlatAppearance.BorderSize = 0;
+            this.bootstrapBtn7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bootstrapBtn7.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
+            this.bootstrapBtn7.ForeColor = System.Drawing.Color.White;
+            this.bootstrapBtn7.Location = new System.Drawing.Point(488, 522);
+            this.bootstrapBtn7.Name = "bootstrapBtn7";
+            this.bootstrapBtn7.Size = new System.Drawing.Size(132, 24);
+            this.bootstrapBtn7.Style = BootstrapBtn.BootstrapStyle.Info;
+            this.bootstrapBtn7.TabIndex = 24;
+            this.bootstrapBtn7.Text = "Pesquisar";
+            this.bootstrapBtn7.UseVisualStyleBackColor = true;
+            this.bootstrapBtn7.Click += new System.EventHandler(this.bootstrapBtn7_Click);
+            // 
+            // bootstrapBtn8
+            // 
+            this.bootstrapBtn8.BorderRadius = 8;
+            this.bootstrapBtn8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bootstrapBtn8.FlatAppearance.BorderSize = 0;
+            this.bootstrapBtn8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bootstrapBtn8.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
+            this.bootstrapBtn8.ForeColor = System.Drawing.Color.White;
+            this.bootstrapBtn8.Location = new System.Drawing.Point(488, 562);
+            this.bootstrapBtn8.Name = "bootstrapBtn8";
+            this.bootstrapBtn8.Size = new System.Drawing.Size(132, 24);
+            this.bootstrapBtn8.Style = BootstrapBtn.BootstrapStyle.Info;
+            this.bootstrapBtn8.TabIndex = 26;
+            this.bootstrapBtn8.Text = "Pesquisar";
+            this.bootstrapBtn8.UseVisualStyleBackColor = true;
+            this.bootstrapBtn8.Click += new System.EventHandler(this.bootstrapBtn8_Click);
+            // 
+            // txtProfessorPesq
+            // 
+            this.txtProfessorPesq.Location = new System.Drawing.Point(155, 566);
+            this.txtProfessorPesq.Name = "txtProfessorPesq";
+            this.txtProfessorPesq.Size = new System.Drawing.Size(319, 22);
+            this.txtProfessorPesq.TabIndex = 27;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label2.Location = new System.Drawing.Point(33, 562);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(97, 20);
+            label2.TabIndex = 28;
+            label2.Text = "Professor:";
             // 
             // Aulas
             // 
@@ -386,6 +463,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(816, 707);
+            this.Controls.Add(label2);
+            this.Controls.Add(this.txtProfessorPesq);
+            this.Controls.Add(this.bootstrapBtn8);
+            this.Controls.Add(label1);
+            this.Controls.Add(this.bootstrapBtn7);
+            this.Controls.Add(this.txtAlunoPesq);
             this.Controls.Add(this.bootstrapBtn6);
             this.Controls.Add(this.bootstrapBtn4);
             this.Controls.Add(duraçãoLabel);
@@ -449,5 +532,9 @@
         private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn8;
         private BootstrapBtn bootstrapBtn4;
         private BootstrapBtn bootstrapBtn6;
+        private System.Windows.Forms.TextBox txtAlunoPesq;
+        private BootstrapBtn bootstrapBtn7;
+        private BootstrapBtn bootstrapBtn8;
+        private System.Windows.Forms.TextBox txtProfessorPesq;
     }
 }

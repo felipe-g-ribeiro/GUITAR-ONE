@@ -106,6 +106,63 @@ namespace GUITAR_ONE {
         private void bootstrapBtn6_Click_1(object sender, EventArgs e) {
 
             aulasBindingSource.RemoveFilter();
+
+            dataDateTimePicker.Value = DateTime.Now;
+
+
+            txtAlunoPesq.Clear();
+            txtProfessorPesq.Clear();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e) {
+
+        }
+
+        private void bootstrapBtn7_Click(object sender, EventArgs e) {
+
+            string nome = txtAlunoPesq.Text.Trim();
+
+            if (string.IsNullOrEmpty(nome)) {
+                MessageBox.Show("Digite o nome do aluno para pesquisar.");
+                return;
+            }
+
+            
+            DataRow[] alunoEncontrado = guitar_HubDataSet.Alunos.Select($"NomeAluno LIKE '%{nome}%'");
+
+            if (alunoEncontrado.Length == 0) {
+                MessageBox.Show("Aluno não encontrado.");
+                return;
+            }
+
+            
+            int idAluno = (int)alunoEncontrado[0]["IdAluno"];
+
+            
+            aulasBindingSource.Filter = $"IdAluno = {idAluno}";
+        }
+
+        private void bootstrapBtn8_Click(object sender, EventArgs e) {
+
+            string nome = txtProfessorPesq.Text.Trim();
+
+            if (string.IsNullOrEmpty(nome)) {
+                MessageBox.Show("Digite o nome do professor para pesquisar.");
+                return;
+            }
+
+            
+            DataRow[] professorEncontrado = guitar_HubDataSet.Professores.Select($"NomeProfessor LIKE '%{nome}%'");
+
+            if (professorEncontrado.Length == 0) {
+                MessageBox.Show("Professor não encontrado.");
+                return;           }
+
+           
+            int idProfessor = (int)professorEncontrado[0]["IdProfessor"];
+            
+            aulasBindingSource.Filter = $"IdProfessor = {idProfessor}";
         }
     }
+    
 }
