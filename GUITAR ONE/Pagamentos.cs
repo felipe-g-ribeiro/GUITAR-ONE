@@ -56,14 +56,46 @@ namespace GUITAR_ONE {
             this.Hide();
         }
 
-        private void bootstrapBtn4_Click(object sender, EventArgs e) {           
+        private void bootstrapBtn4_Click(object sender, EventArgs e) {
 
-            string status = statusComboBox.Text; 
-            pagamentosBindingSource.Filter = "Status = '" + status + "'";
+            //string status = statusComboBox.Text; 
+            //pagamentosBindingSource.Filter = "Status = '" + status + "'";
+
+            string status = statusComboBox.Text;
+
+            
+            if (!string.IsNullOrEmpty(pagamentosBindingSource.Filter)) {
+                pagamentosBindingSource.Filter += $" AND Status = '{status}'";
+            }
+            else {
+                pagamentosBindingSource.Filter = $"Status = '{status}'";
+            }
 
 
-           
 
+
+
+        }
+
+        private void dataPagamentoDateTimePicker_ValueChanged(object sender, EventArgs e) {
+
+            
+        }
+
+        private void bootstrapBtn6_Click(object sender, EventArgs e) {
+            
+            DateTime dataSelecionada = dataPagamentoDateTimePicker.Value.Date;
+            
+            string dataFiltro = dataSelecionada.ToString("yyyy-MM-dd");
+
+            
+            pagamentosBindingSource.Filter = $"DataPagamento = '{dataFiltro}'";
+        }
+
+        private void bootstrapBtn7_Click(object sender, EventArgs e) {
+
+            pagamentosBindingSource.RemoveFilter();
+            pagamentosTableAdapter.Fill(guitar_HubDataSet.Pagamentos);
 
         }
     }

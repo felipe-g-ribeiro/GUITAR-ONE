@@ -98,5 +98,11 @@ namespace GUITAR_ONE {
 
             
         }
+
+        private void dataDateTimePicker_ValueChanged(object sender, EventArgs e) {
+
+            dataDateTimePicker.Value = DateTime.Now;
+
+        }
     }
 }

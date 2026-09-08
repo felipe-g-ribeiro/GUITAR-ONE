@@ -38,3 +38,4 @@ C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\P
 C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR ONE.csproj.CoreCompileInputs.cache
 C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR ONE.exe
 C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR ONE.pdb
+C:\Users\felip\Desktop\IEFP Formação\614 - Integrar sistemas de informação\Projeto\GUITAR ONE\GUITAR ONE\obj\Debug\GUITAR_ONE.Cadastro.resources

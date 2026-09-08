@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\guitar one\\professores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|solutionrelative:guitar one\\professores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\guitar one\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|solutionrelative:guitar one\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|c:\\users\\felip\\desktop\\iefp forma\u00E7\u00E3o\\614 - integrar sistemas de informa\u00E7\u00E3o\\projeto\\guitar one\\guitar one\\pagamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|solutionrelative:guitar one\\pagamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\guitar one\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|solutionrelative:guitar one\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|c:\\users\\felip\\desktop\\iefp forma\u00E7\u00E3o\\614 - integrar sistemas de informa\u00E7\u00E3o\\projeto\\guitar one\\guitar one\\pagamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|solutionrelative:guitar one\\pagamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\guitar one\\guitar_hubdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|solutionrelative:guitar one\\guitar_hubdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+      "AbsoluteMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\guitar one\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|solutionrelative:guitar one\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\guitar one\\aulas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,8 +23,32 @@
       "RelativeMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|solutionrelative:guitar one\\aulas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\guitar one\\pagamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|solutionrelative:guitar one\\pagamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\guitar one\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|solutionrelative:guitar one\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\guitar one\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|solutionrelative:guitar one\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\guitar one\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|solutionrelative:guitar one\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|c:\\users\\felip\\desktop\\iefp forma\u00E7\u00E3o\\614 - integrar sistemas de informa\u00E7\u00E3o\\projeto\\guitar one\\guitar one\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|solutionrelative:guitar one\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\guitar one\\guitar_hubdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|solutionrelative:guitar one\\guitar_hubdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\guitar one\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|solutionrelative:guitar one\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\guitar one\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF137434-3C33-4121-A9A5-B5C97FF6FFDC}|GUITAR ONE\\GUITAR ONE.csproj|solutionrelative:guitar one\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,6 +60,73 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Guitar_HubDataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Guitar_HubDataSet.xsd",
+              "RelativeDocumentMoniker": "GUITAR ONE\\Guitar_HubDataSet.xsd",
+              "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Guitar_HubDataSet.xsd",
+              "RelativeToolTip": "GUITAR ONE\\Guitar_HubDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2026-07-26T22:14:44.029Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Form1.cs",
+              "RelativeDocumentMoniker": "GUITAR ONE\\Form1.cs",
+              "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Form1.cs",
+              "RelativeToolTip": "GUITAR ONE\\Form1.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwC4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T07:42:22.373Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Form1.cs",
+              "RelativeDocumentMoniker": "GUITAR ONE\\Form1.cs",
+              "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Form1.cs [Design]",
+              "RelativeToolTip": "GUITAR ONE\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T07:35:03.567Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cadastro.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Cadastro.cs",
+              "RelativeDocumentMoniker": "GUITAR ONE\\Cadastro.cs",
+              "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Cadastro.cs",
+              "RelativeToolTip": "GUITAR ONE\\Cadastro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T07:35:16.148Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cadastro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Cadastro.cs",
+              "RelativeDocumentMoniker": "GUITAR ONE\\Cadastro.cs",
+              "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Cadastro.cs [Design]",
+              "RelativeToolTip": "GUITAR ONE\\Cadastro.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T07:32:59.724Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -66,99 +149,90 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Pagamentos.cs",
               "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Pagamentos.cs",
               "RelativeDocumentMoniker": "GUITAR ONE\\Pagamentos.cs",
               "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Pagamentos.cs",
               "RelativeToolTip": "GUITAR ONE\\Pagamentos.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-29T11:32:29.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Guitar_HubDataSet.xsd",
-              "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Guitar_HubDataSet.xsd",
-              "RelativeDocumentMoniker": "GUITAR ONE\\Guitar_HubDataSet.xsd",
-              "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Guitar_HubDataSet.xsd",
-              "RelativeToolTip": "GUITAR ONE\\Guitar_HubDataSet.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2026-07-26T22:14:44.029Z",
+              "WhenOpened": "2026-09-08T08:18:36.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Alunos.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Alunos.cs",
-              "RelativeDocumentMoniker": "GUITAR ONE\\Alunos.cs",
-              "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Alunos.cs",
-              "RelativeToolTip": "GUITAR ONE\\Alunos.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAuwDwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-26T22:00:04.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Aulas.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Aulas.cs",
-              "RelativeDocumentMoniker": "GUITAR ONE\\Aulas.cs",
-              "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Aulas.cs",
-              "RelativeToolTip": "GUITAR ONE\\Aulas.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwCoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-26T21:58:08.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Pagamentos.cs [Design]",
               "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Pagamentos.cs",
               "RelativeDocumentMoniker": "GUITAR ONE\\Pagamentos.cs",
-              "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Pagamentos.cs [Design]*",
-              "RelativeToolTip": "GUITAR ONE\\Pagamentos.cs [Design]*",
+              "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Pagamentos.cs [Design]",
+              "RelativeToolTip": "GUITAR ONE\\Pagamentos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-26T19:38:54.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Professores.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Professores.cs",
-              "RelativeDocumentMoniker": "GUITAR ONE\\Professores.cs",
-              "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Professores.cs [Design]",
-              "RelativeToolTip": "GUITAR ONE\\Professores.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-26T19:35:13.854Z",
+              "WhenOpened": "2026-09-08T08:18:31.573Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Alunos.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Alunos.cs",
-              "RelativeDocumentMoniker": "GUITAR ONE\\Alunos.cs",
-              "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Alunos.cs [Design]",
-              "RelativeToolTip": "GUITAR ONE\\Alunos.cs [Design]",
+              "Title": "Aulas.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Aulas.cs",
+              "RelativeDocumentMoniker": "GUITAR ONE\\Aulas.cs",
+              "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Aulas.cs",
+              "RelativeToolTip": "GUITAR ONE\\Aulas.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAkwGcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T12:20:37.045Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-08T07:18:12.346Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Aulas.cs [Design]",
               "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Aulas.cs",
               "RelativeDocumentMoniker": "GUITAR ONE\\Aulas.cs",
               "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Aulas.cs [Design]",
               "RelativeToolTip": "GUITAR ONE\\Aulas.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-26T19:35:04.373Z"
+              "WhenOpened": "2026-07-26T19:35:04.373Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "GUITAR ONE\\MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\MenuPrincipal.cs [Design]",
+              "RelativeToolTip": "GUITAR ONE\\MenuPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T07:33:26.415Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MenuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "GUITAR ONE\\MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\MenuPrincipal.cs",
+              "RelativeToolTip": "GUITAR ONE\\MenuPrincipal.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvzMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T07:17:13.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Alunos.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Alunos.cs",
+              "RelativeDocumentMoniker": "GUITAR ONE\\Alunos.cs",
+              "ToolTip": "C:\\Users\\felip\\Desktop\\IEFP Forma\u00E7\u00E3o\\614 - Integrar sistemas de informa\u00E7\u00E3o\\Projeto\\GUITAR ONE\\GUITAR ONE\\Alunos.cs",
+              "RelativeToolTip": "GUITAR ONE\\Alunos.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T22:00:04.55Z"
             }
           ]
         }

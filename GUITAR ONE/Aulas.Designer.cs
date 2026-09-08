@@ -180,6 +180,7 @@
             this.tableAdapterManager.AlunosTableAdapter = this.alunosTableAdapter;
             this.tableAdapterManager.AulasTableAdapter = this.aulasTableAdapter;
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.LoginTableAdapter = null;
             this.tableAdapterManager.PagamentosTableAdapter = this.pagamentosTableAdapter;
             this.tableAdapterManager.PlanosTableAdapter = null;
             this.tableAdapterManager.ProfessoresTableAdapter = this.professoresTableAdapter;
@@ -338,6 +339,7 @@
             this.dataDateTimePicker.Name = "dataDateTimePicker";
             this.dataDateTimePicker.Size = new System.Drawing.Size(319, 22);
             this.dataDateTimePicker.TabIndex = 17;
+            this.dataDateTimePicker.ValueChanged += new System.EventHandler(this.dataDateTimePicker_ValueChanged);
             // 
             // conteudoTextBox
             // 

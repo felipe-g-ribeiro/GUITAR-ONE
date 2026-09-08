@@ -25,15 +25,21 @@
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.Label dataPagamentoLabel;
+            System.Windows.Forms.Label statusLabel;
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.Label statusLabel;
             this.guitar_HubDataSet = new GUITAR_ONE.Guitar_HubDataSet();
             this.pagamentosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pagamentosTableAdapter = new GUITAR_ONE.Guitar_HubDataSetTableAdapters.PagamentosTableAdapter();
             this.tableAdapterManager = new GUITAR_ONE.Guitar_HubDataSetTableAdapters.TableAdapterManager();
             this.pagamentosDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.alunosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.planosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.alunosTableAdapter = new GUITAR_ONE.Guitar_HubDataSetTableAdapters.AlunosTableAdapter();
             this.planosTableAdapter = new GUITAR_ONE.Guitar_HubDataSetTableAdapters.PlanosTableAdapter();
@@ -43,14 +49,10 @@
             this.bootstrapBtn2 = new BootstrapBtn();
             this.bootstrapBtn1 = new BootstrapBtn();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.statusComboBox = new System.Windows.Forms.ComboBox();
             this.bootstrapBtn4 = new BootstrapBtn();
+            this.bootstrapBtn6 = new BootstrapBtn();
+            this.bootstrapBtn7 = new BootstrapBtn();
             dataPagamentoLabel = new System.Windows.Forms.Label();
             statusLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.guitar_HubDataSet)).BeginInit();
@@ -63,11 +65,20 @@
             // dataPagamentoLabel
             // 
             dataPagamentoLabel.AutoSize = true;
-            dataPagamentoLabel.Location = new System.Drawing.Point(25, 470);
+            dataPagamentoLabel.Location = new System.Drawing.Point(24, 475);
             dataPagamentoLabel.Name = "dataPagamentoLabel";
             dataPagamentoLabel.Size = new System.Drawing.Size(112, 16);
             dataPagamentoLabel.TabIndex = 22;
             dataPagamentoLabel.Text = "Data Pagamento:";
+            // 
+            // statusLabel
+            // 
+            statusLabel.AutoSize = true;
+            statusLabel.Location = new System.Drawing.Point(676, 474);
+            statusLabel.Name = "statusLabel";
+            statusLabel.Size = new System.Drawing.Size(47, 16);
+            statusLabel.TabIndex = 24;
+            statusLabel.Text = "Status:";
             // 
             // guitar_HubDataSet
             // 
@@ -88,6 +99,7 @@
             this.tableAdapterManager.AlunosTableAdapter = null;
             this.tableAdapterManager.AulasTableAdapter = null;
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.LoginTableAdapter = null;
             this.tableAdapterManager.PagamentosTableAdapter = this.pagamentosTableAdapter;
             this.tableAdapterManager.PlanosTableAdapter = null;
             this.tableAdapterManager.ProfessoresTableAdapter = null;
@@ -128,10 +140,68 @@
             this.pagamentosDataGridView.Size = new System.Drawing.Size(976, 372);
             this.pagamentosDataGridView.TabIndex = 22;
             // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "IdAluno";
+            this.dataGridViewTextBoxColumn6.DataSource = this.alunosBindingSource;
+            this.dataGridViewTextBoxColumn6.DisplayMember = "NomeAluno";
+            this.dataGridViewTextBoxColumn6.HeaderText = "Nome do Aluno";
+            this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn6.ValueMember = "IdAluno";
+            this.dataGridViewTextBoxColumn6.Width = 180;
+            // 
             // alunosBindingSource
             // 
             this.alunosBindingSource.DataMember = "Alunos";
             this.alunosBindingSource.DataSource = this.guitar_HubDataSet;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "TipoPagamento";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Tipo de Pagamento";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "DataPagamento";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Data do Pagamento";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Valor";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Valor";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "Status";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Status";
+            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "IdPlano";
+            this.dataGridViewTextBoxColumn7.DataSource = this.planosBindingSource;
+            this.dataGridViewTextBoxColumn7.DisplayMember = "NomePlano";
+            this.dataGridViewTextBoxColumn7.HeaderText = "Plano";
+            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn7.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn7.ValueMember = "IdPlano";
             // 
             // planosBindingSource
             // 
@@ -149,10 +219,11 @@
             // dataPagamentoDateTimePicker
             // 
             this.dataPagamentoDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.pagamentosBindingSource, "DataPagamento", true));
-            this.dataPagamentoDateTimePicker.Location = new System.Drawing.Point(143, 466);
+            this.dataPagamentoDateTimePicker.Location = new System.Drawing.Point(142, 471);
             this.dataPagamentoDateTimePicker.Name = "dataPagamentoDateTimePicker";
             this.dataPagamentoDateTimePicker.Size = new System.Drawing.Size(338, 22);
             this.dataPagamentoDateTimePicker.TabIndex = 23;
+            this.dataPagamentoDateTimePicker.ValueChanged += new System.EventHandler(this.dataPagamentoDateTimePicker_ValueChanged);
             // 
             // bootstrapBtn5
             // 
@@ -232,73 +303,6 @@
             this.label1.TabIndex = 24;
             this.label1.Text = "Gestão Pagamentos";
             // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "IdAluno";
-            this.dataGridViewTextBoxColumn6.DataSource = this.alunosBindingSource;
-            this.dataGridViewTextBoxColumn6.DisplayMember = "NomeAluno";
-            this.dataGridViewTextBoxColumn6.HeaderText = "Nome do Aluno";
-            this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn6.ValueMember = "IdAluno";
-            this.dataGridViewTextBoxColumn6.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "TipoPagamento";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Tipo de Pagamento";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "DataPagamento";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Data do Pagamento";
-            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "Valor";
-            this.dataGridViewTextBoxColumn3.HeaderText = "Valor";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "Status";
-            this.dataGridViewTextBoxColumn5.HeaderText = "Status";
-            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "IdPlano";
-            this.dataGridViewTextBoxColumn7.DataSource = this.planosBindingSource;
-            this.dataGridViewTextBoxColumn7.DisplayMember = "NomePlano";
-            this.dataGridViewTextBoxColumn7.HeaderText = "Plano";
-            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn7.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn7.ValueMember = "IdPlano";
-            // 
-            // statusLabel
-            // 
-            statusLabel.AutoSize = true;
-            statusLabel.Location = new System.Drawing.Point(583, 472);
-            statusLabel.Name = "statusLabel";
-            statusLabel.Size = new System.Drawing.Size(47, 16);
-            statusLabel.TabIndex = 24;
-            statusLabel.Text = "Status:";
-            // 
             // statusComboBox
             // 
             this.statusComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.pagamentosBindingSource, "Status", true));
@@ -306,7 +310,7 @@
             this.statusComboBox.Items.AddRange(new object[] {
             "Pago",
             "Pendente"});
-            this.statusComboBox.Location = new System.Drawing.Point(636, 469);
+            this.statusComboBox.Location = new System.Drawing.Point(729, 471);
             this.statusComboBox.Name = "statusComboBox";
             this.statusComboBox.Size = new System.Drawing.Size(121, 24);
             this.statusComboBox.TabIndex = 25;
@@ -319,7 +323,7 @@
             this.bootstrapBtn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bootstrapBtn4.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
             this.bootstrapBtn4.ForeColor = System.Drawing.Color.White;
-            this.bootstrapBtn4.Location = new System.Drawing.Point(763, 469);
+            this.bootstrapBtn4.Location = new System.Drawing.Point(856, 471);
             this.bootstrapBtn4.Name = "bootstrapBtn4";
             this.bootstrapBtn4.Size = new System.Drawing.Size(132, 24);
             this.bootstrapBtn4.Style = BootstrapBtn.BootstrapStyle.Success;
@@ -328,11 +332,47 @@
             this.bootstrapBtn4.UseVisualStyleBackColor = true;
             this.bootstrapBtn4.Click += new System.EventHandler(this.bootstrapBtn4_Click);
             // 
+            // bootstrapBtn6
+            // 
+            this.bootstrapBtn6.BorderRadius = 8;
+            this.bootstrapBtn6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bootstrapBtn6.FlatAppearance.BorderSize = 0;
+            this.bootstrapBtn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bootstrapBtn6.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
+            this.bootstrapBtn6.ForeColor = System.Drawing.Color.White;
+            this.bootstrapBtn6.Location = new System.Drawing.Point(486, 471);
+            this.bootstrapBtn6.Name = "bootstrapBtn6";
+            this.bootstrapBtn6.Size = new System.Drawing.Size(132, 24);
+            this.bootstrapBtn6.Style = BootstrapBtn.BootstrapStyle.Success;
+            this.bootstrapBtn6.TabIndex = 27;
+            this.bootstrapBtn6.Text = "Pesquisar";
+            this.bootstrapBtn6.UseVisualStyleBackColor = true;
+            this.bootstrapBtn6.Click += new System.EventHandler(this.bootstrapBtn6_Click);
+            // 
+            // bootstrapBtn7
+            // 
+            this.bootstrapBtn7.BorderRadius = 8;
+            this.bootstrapBtn7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bootstrapBtn7.FlatAppearance.BorderSize = 0;
+            this.bootstrapBtn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bootstrapBtn7.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
+            this.bootstrapBtn7.ForeColor = System.Drawing.Color.White;
+            this.bootstrapBtn7.Location = new System.Drawing.Point(486, 499);
+            this.bootstrapBtn7.Name = "bootstrapBtn7";
+            this.bootstrapBtn7.Size = new System.Drawing.Size(132, 24);
+            this.bootstrapBtn7.Style = BootstrapBtn.BootstrapStyle.Info;
+            this.bootstrapBtn7.TabIndex = 28;
+            this.bootstrapBtn7.Text = "Limpar";
+            this.bootstrapBtn7.UseVisualStyleBackColor = true;
+            this.bootstrapBtn7.Click += new System.EventHandler(this.bootstrapBtn7_Click);
+            // 
             // Pagamentos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1008, 600);
+            this.Controls.Add(this.bootstrapBtn7);
+            this.Controls.Add(this.bootstrapBtn6);
             this.Controls.Add(this.bootstrapBtn4);
             this.Controls.Add(statusLabel);
             this.Controls.Add(this.statusComboBox);
@@ -384,5 +424,7 @@
         private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn7;
         private System.Windows.Forms.ComboBox statusComboBox;
         private BootstrapBtn bootstrapBtn4;
+        private BootstrapBtn bootstrapBtn6;
+        private BootstrapBtn bootstrapBtn7;
     }
 }
