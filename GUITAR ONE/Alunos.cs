@@ -60,5 +60,48 @@ namespace GUITAR_ONE {
         private void alunosDataGridView_DataError(object sender, DataGridViewDataErrorEventArgs e) {
             try { } catch { }
         }
+
+        private void bootstrapBtn4_Click(object sender, EventArgs e) {
+
+
+            string nome = txtAluno.Text.Trim();
+
+            if (string.IsNullOrEmpty(nome)) {
+                MessageBox.Show("Digite o nome do aluno para pesquisar.");
+                return;
+            }
+
+            try {
+                
+                alunosBindingSource.Filter = $"NomeAluno LIKE '%{nome}%'";
+            }
+            catch {
+                MessageBox.Show("Verifique o nome digitado.");
+            }
+        }
+
+        private void bootstrapBtn6_Click(object sender, EventArgs e) {
+
+            string tel = txtTel.Text.Trim();
+
+            if (string.IsNullOrEmpty(tel)) {
+                MessageBox.Show("Digite o número para pesquisar.");
+                return;
+            }
+
+            try {
+
+                alunosBindingSource.Filter = $"Telefone LIKE '%{tel}%'";
+            }
+            catch {
+                MessageBox.Show("Verifique o número digitado.");
+            }
+
+        }
+
+        private void bootstrapBtn7_Click(object sender, EventArgs e) {
+
+            alunosBindingSource.RemoveFilter();
+        }
     }
 }

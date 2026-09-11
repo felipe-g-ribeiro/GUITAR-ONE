@@ -61,7 +61,13 @@ namespace GUITAR_ONE {
             }
 
             // grava no banco de dados
-            this.loginTableAdapter.Insert(user, pass);
+            try {
+                this.loginTableAdapter.Insert(user, pass);
+            }
+            catch {
+                MessageBox.Show("Cadastro Existente");
+                return;
+            }
 
             MessageBox.Show("Cadastro realizado com sucesso!");
 

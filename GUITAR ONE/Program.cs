@@ -13,7 +13,7 @@ namespace GUITAR_ONE {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Aulas());
+            Application.Run(new Form1());
         }
     }
 }
